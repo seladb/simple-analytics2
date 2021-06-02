@@ -1,8 +1,10 @@
+from dataclasses import dataclass
 from typing import Optional
 
 
+@dataclass()
 class Job:
-    pass
+    id: int
 
 
 class JobQueue:
